@@ -5,6 +5,7 @@ attr_accessor :name, :artist, :genre
 @@artists = []
 @@genres = []
 @@genre_count = {}
+@@artist_count = {}
 def initialize(name,artist,genre)
   @name = name
   @artist = artist
@@ -33,6 +34,12 @@ def self.genre_count
   @@genre_count
 end
 
+def self.artist_count
+  @@artists.each do |x|
+    @@artist_count[x] = @@artists.count(x)
+  end
+  @@artist_count
+end
 
 
 
