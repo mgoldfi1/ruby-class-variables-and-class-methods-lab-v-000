@@ -10,7 +10,6 @@ def initialize(name,artist,genre)
   @genre = genre
   @@count += 1
   @@artists << artist
-  @@artists.delete_if {|x| x == artist}
   @@genres << genre
 end
 
@@ -20,7 +19,6 @@ end
 
 def self.artists
   @@artists
-  binding.pry
 end
 
 
