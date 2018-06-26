@@ -21,8 +21,8 @@ def self.artists
   @@artists = @@artists.uniq
 end
 
-def self.genres 
-  @@genres.uniq 
+def self.genres
+  @@genres.uniq
 end
 
 
