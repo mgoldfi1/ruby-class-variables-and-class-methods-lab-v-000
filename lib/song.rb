@@ -27,7 +27,7 @@ def self.genres
 end
 
 def self.genre_count
-  @@genres.collect do |x|
+  @@genres.each do |x|
     @@genre_count[x] = @@genres.count(x)
     binding.pry
   end
