@@ -13,8 +13,8 @@ end
 
 def self.artists
 end
-  
-  
+
+
 
 
 
