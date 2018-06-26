@@ -25,9 +25,9 @@ end
 def self.genres
   @@genres.uniq
 end
-binding.pry
-def self.genre_count
 
+def self.genre_count
+binding.pry
   end
 
 
